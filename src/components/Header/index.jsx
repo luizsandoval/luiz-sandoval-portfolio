@@ -26,6 +26,7 @@ const Header = ({ setActiveSection }) => {
                     <List>
                         <Item 
                             onClick={() => setActiveSection('home')}
+                            active
                         >
                             Home
                         </Item>

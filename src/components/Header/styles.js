@@ -85,7 +85,7 @@ export const Item = styled.li`
         : theme.colors.white.medium
     };
 
-    padding: 0 16px 8px;
+    padding: 0 16px 16px;
 
     border-bottom: ${({ active, theme }) => active && css`
         2px solid ${theme.colors.accent.main}
@@ -95,6 +95,10 @@ export const Item = styled.li`
 
     @media screen and (min-width: 992px) {
         display: block;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 `;
 

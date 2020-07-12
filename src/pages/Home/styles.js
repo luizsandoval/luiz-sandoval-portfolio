@@ -16,8 +16,6 @@ export const Banner = styled.div`
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAB2CAYAAACH6LCMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAELSURBVHgB7dixbcMwEAVQKhMkG2T/xsgEWiGbOBtcJMQB2FgiRQKEifcAqTDPn1BzxU9pExGf27Nuzz3+3PbfUqMhuY/D/4PcveXyYbmPr3tmTReNyl3298H/f5Zl+UgXjMp9218HA+/puiG5+wd9Hwx8pevG5MZsSyEbumUHa/Rbry+TCwAAnAqtT/GlWp/WXK1PBa1Pl9yYbSlkQ1ofAADgTGh9ii/V+rTman0qaH265MZsSyEb0voAAABnQutTfKnWpzVX61NB69MlN2ZbCtmQ1gcAADgTWp/iS7U+rblanwpany65MdtSyIa0PgAAwJnQ+hRfqvVpzdX6VND6dMmN2ZZCNjRF6/MLC3T6kPHXGQIAAAAASUVORK5CYII=),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAB2BAMAAAB1xq2/AAAAGFBMVEUAAAD/eAD/ewD/egD/egD/egD/eAD/egAuaSomAAAAB3RSTlMAIO/vv6+wWqxEiQAAAF1JREFUSMftkrsNgDAUA182iFiCGokJaBghg/C59ZF4pSVaoshXnTsXF2W7aryITrDkFG1w5hQFjpyiM5BTdIc7p+jHjdLWmlPU/ISLMuGiXFTPuCjjolxUzwxa1AMBAL39ffJ38wAAAABJRU5ErkJggg==);
-    background-repeat: no-repeat;
     background-position: 0 40%, 100% 100%;
 `;
 
