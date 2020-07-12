@@ -10,11 +10,11 @@ import {
 
 import { Container, Header, Content, Item } from './styles';
 
-const Beliefs = () => (
+const Values = () => (
     <Container id="values">
         <Header>
-            <h1>My beliefs</h1>
-            <h2>These are my values as a professional</h2>
+            <h1>Values</h1>
+            <h2>These are my beliefs as a professional</h2>
         </Header>
         <Content>
             <Item>
@@ -79,4 +79,4 @@ const Beliefs = () => (
     </Container>
 );
 
-export default Beliefs;
+export default Values;

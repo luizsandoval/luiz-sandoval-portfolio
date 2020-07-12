@@ -7,6 +7,8 @@ import {
     faGraduationCap,
 } from '@fortawesome/free-solid-svg-icons';
 
+import Photo from '../../assets/photo.jpg';
+
 import {
     Container,
     Header,
@@ -47,7 +49,7 @@ const About = () => {
                 </SummaryItem>
             </Summary>
             <Profile>
-                <Avatar image="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" />
+                <Avatar image={Photo} />
 
                 <p>
                     I am a <b>fullstack web developer</b>, based on Sao Paulo,

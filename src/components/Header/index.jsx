@@ -6,11 +6,10 @@ import {
     Logo,
     List,
     Item,
-    StyledLink,
     Button,
 } from './styles';
 
-const Header = () => {
+const Header = ({ setActiveSection }) => {
     return (
         <StyledHeader>
             <Container>
@@ -25,35 +24,38 @@ const Header = () => {
 
                 <nav>
                     <List>
-                        <Item>
-                            <StyledLink active href="#home">
-                                Home
-                            </StyledLink>
+                        <Item 
+                            onClick={() => setActiveSection('home')}
+                        >
+                            Home
                         </Item>
-                        <Item>
-                            <StyledLink href="#about">
-                                About
-                            </StyledLink>
+                        <Item 
+                            onClick={() => setActiveSection('about')}
+                        >
+                            About
                         </Item>
-                        <Item>
-                            <StyledLink href="#values">
-                                Values
-                            </StyledLink>
+                        <Item
+                            onClick={() => setActiveSection('values')}
+                            >
+                            Values
                         </Item>
-                        <Item>
-                            <StyledLink href="#skills">
-                                Skills
-                            </StyledLink>
+                        <Item
+                            onClick={() => setActiveSection('skills')}
+                        >
+                            Skills
                         </Item>
-                        <Item>
-                            <StyledLink href="#projects">
-                                Projects
-                            </StyledLink>
-                        </Item>
-                        <Item>
-                            <Button type='button' href="#contact">Contact me</Button>
+                        <Item
+                            onClick={() => setActiveSection('projects')}
+                        >
+                            Projects
                         </Item>
                     </List>
+                    <Button 
+                        type="button"
+                        onClick={() => setActiveSection('contact')}
+                    >
+                        Contact me
+                    </Button>
                 </nav>
             </Container>
         </StyledHeader>
